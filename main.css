@@ -1,0 +1,68 @@
+*{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --primari-color:#333e48;
+    --White-color : #fff;
+    --Black-color : #000;
+    --text-color : #252a2b;
+    --border-color: #dbdbdb; 
+    --header-height: 80px;
+    --header-height-mobile-table: 60px;
+}
+html{
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box; 
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    -webkit-tap-highlight-color: transparent;
+}
+.app{
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+.header{
+    margin-top: 50px;
+}
+.header-name{
+    margin-top: 30px;
+}
+.container{
+    margin-top: 30px;
+    
+}
+.container-list{
+    
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.container-list-child__ass-item,
+.container-list-child{
+    list-style: none;
+}
+.container-list-child__ass{
+    margin-top: 20px;
+}
+.container-list-child{
+    margin: 0 50px;
+}
+.container-list-child-name{
+    font-size: 14px;
+    font-weight: 600;
+}
+.container-list-child__ass-item-link{
+    font-size: 13px;
+    color: #000;
+    text-decoration: none;
+    padding: 0 4px;
+}
+.container-list-child__ass-item-link:hover{
+    cursor: pointer;
+    background-color: #aaacad;
+    border-radius: 3px;
+}
